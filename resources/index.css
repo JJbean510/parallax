@@ -1,0 +1,43 @@
+#beach {
+    background-image: url("./Images/Beach.jpeg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 100%;
+    padding: 300px;
+}
+
+#lakeChabot {
+    background-image: url("./Images/lake_chabot.jpg");
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+
+#slMarina {
+    background-image: url("./Images/marina.jpg");
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+
+h1, section, footer {
+    text-align: center;
+}
+
+h2, .plock {
+    background-color: peachpuff;
+    color: red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+p {
+    padding: 50px;
+    height: 190px;
+}
+
+* {
+    margin: 0;
+    opacity: .95;
+}
