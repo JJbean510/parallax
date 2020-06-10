@@ -1,44 +1,57 @@
-#beach {
+#beachHead, #beachFooter {
     background-image: url("./Images/Beach.jpeg");
+    height: 100px;
+    background-attachment: fixed;
     background-size: cover;
-    position: relative;
     background-position: center;
-    height: 100%;
-    padding: 300px;
+    background-repeat: no-repeat;
+    padding: 505px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #lakeChabot {
     background-image: url("./Images/lake_chabot.jpg");
-    background-size: 100% 100%;
-    min-height: 400px;
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 220px;
 }
 
 #slMarina {
     background-image: url("./Images/marina.jpg");
-    background-size: 100% 100%;
-    min-height: 400px;
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 220px;
 }
 
-h1, section, footer {
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text,.border {
+    background-color: transparent;
+    background-blend-mode: soft-light;
+    color: #eddcd2;
+}
+
+body {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
- .filter {
-    background-color: peachpuff;
-    padding: 50px 80px;
-    padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    text-align: center;
-}
-
-p {
-    padding: 50px;
-    height: 190px;
+.filter {
+    padding: 90px;
+    background-color: #fcd5ce;
+    color: black;
 }
 
 * {
-    margin: 0;
-    opacity: .95;
+    margin: 0px;
 }
